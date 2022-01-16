@@ -2,7 +2,7 @@
 /* See doc/licenses.asciidoc for the licensing information. */
 
 //
-// SmartDec decompiler - SmartDec is a native code to C/C++ decompiler
+// SmartDec decompiler - SmartDec is a native code to C++ decompiler
 // Copyright (C) 2015 Alexander Chernov, Katerina Troshina, Yegor Derevenets,
 // Alexander Fokin, Sergey Levin, Leonid Tsvetkov
 //
@@ -149,7 +149,7 @@ void help() {
          << "  --from[=ADDR]               From disassemble boundary." << '\n'
          << "  --to[=ADDR]                 To disassemble boundary." << '\n'
          << '\n'
-         << branding.applicationName() << " is a command-line native code to C/C++ decompiler." << '\n'
+         << branding.applicationName() << " is a command-line native code to C++ decompiler." << '\n'
          << "It parses given files, decompiles them, and prints the requested" << '\n'
          << "information (by default, C++ code) to the specified files." << '\n'
          << "When a file name is '-' or omitted, stdout is used." << '\n'

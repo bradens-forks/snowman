@@ -2,7 +2,7 @@
 /* See doc/licenses.asciidoc for the licensing information. */
 
 //
-// SmartDec decompiler - SmartDec is a native code to C/C++ decompiler
+// SmartDec decompiler - SmartDec is a native code to C++ decompiler
 // Copyright (C) 2015 Alexander Chernov, Katerina Troshina, Yegor Derevenets,
 // Alexander Fokin, Sergey Levin, Leonid Tsvetkov
 //
@@ -688,7 +688,7 @@ void MainWindow::setStatusText(const QString &text) {
 void MainWindow::about() {
     QMessageBox::about(this, tr("About %1").arg(branding_.applicationName()), tr(
         "<h3>About %1</h3>"
-        "<p>%1 is a native code to C/C++ decompiler.</p>"
+        "<p>%1 is a native code to C++ decompiler.</p>"
         "<p>This is version %2.</p>"
         "<p>%1 supports the following architectures:<ul>"
         "<li>ARM (little endian, big endian, powered by <a href=\"http://www.capstone-engine.org/\">Capstone</a>),</li>"

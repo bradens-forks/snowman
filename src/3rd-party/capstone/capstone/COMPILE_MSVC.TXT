@@ -24,7 +24,7 @@ NOTE: This requires Visual Studio 2010 or newer versions.
   next steps.
 
   In VisualStudio interface, modify the preprocessor definitions via
-  "Project Properties" -> "Configuration Propertis" -> "C/C++" -> "Preprocessor"
+  "Project Properties" -> "Configuration Propertis" -> "C++ -> "Preprocessor"
   to customize Capstone library, as followings.
 
   - CAPSTONE_HAS_ARM: support ARM. Delete this to remove ARM support.
